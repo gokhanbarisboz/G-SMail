@@ -1,0 +1,7 @@
+ecadeabefde25360c11cdd87a3cdb50e706a0759deee84d2b24fa4fab66de02f  G-SMail-Setup.exe
+f9068ad98c4f79183d055058bb4dce2d169fc18cfff157b1d720de5ed7fc04f1  G-SMail-Portable.exe
+
+596157dd5dcece2ef3e3ae17027c3d4856782f714ea49249a52eb590f90c9d83  G-SMail-Klasor-Portable.zip
+
+c51b23afcc14c4fcf7b25a37d8af4d404ed55307cec55e6bb864a70e01cbf477  G-SMail-1.2.21-linux-amd64.deb
+f79f957dfeed0be92e4484714fc808e01b4398073fc195cf31b2859efa3448be  G-SMail-1.2.21-linux-x64.tar.gz
