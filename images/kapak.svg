@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="G-SMAİL — İletişiminiz, bir arada. G-SANTRAL İŞ ÇÖZÜMLERİ">
+<defs><linearGradient id="bg"><stop stop-color="#f7faff"/><stop offset="1" stop-color="#eaf1fa"/></linearGradient></defs>
+<rect width="1200" height="320" rx="20" fill="url(#bg)"/><path d="M1000 -80C780 70 1020 230 830 400" fill="none" stroke="#cedced" stroke-width="1.5"/><path d="M1100 -80C880 70 1120 230 930 400" fill="none" stroke="#dce6f3" stroke-width="34"/>
+<g transform="translate(36 62) scale(.34)">
+  <title id="title">G-SMAİL e-posta amblemi</title>
+  <desc id="desc">GSantral G/S amblemi ve e-posta zarfı.</desc>
+  <defs>
+    <path id="dis-form" d="M256 42C165 42 91 116 91 209c0 76 49 140 117 163v61l53-43c91-3 163-79 163-171 0-98-75-177-168-177Z"/>
+    <clipPath id="dis-klip"><use href="#dis-form"/></clipPath>
+    <mask id="harf-maskesi" maskUnits="userSpaceOnUse" x="70" y="25" width="380" height="425">
+      <rect x="70" y="25" width="380" height="425" fill="white"/>
+      <path d="M351 151c-20-32-55-49-99-49-52 0-89 29-89 71 0 43 34 68 91 68h35c39 0 62 22 62 57 0 39-35 64-86 64-46 0-83-20-105-52" fill="none" stroke="black" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M329 156h111v42H329l-25-22 25-20Z" fill="black"/>
+    </mask>
+  </defs>
+  <g clip-path="url(#dis-klip)" mask="url(#harf-maskesi)">
+    <rect x="70" y="25" width="380" height="425" fill="#052a52"/>
+    <path d="M62 244h276v194H62Z" fill="#e3062d"/>
+  </g>
+  <path d="M92 244h290" fill="none" stroke="#e3062d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="116" cy="244" r="13" fill="#e3062d" stroke="#fffaf4" stroke-width="7"/>
+  <circle cx="382" cy="244" r="13" fill="#052a52" stroke="#fffaf4" stroke-width="7"/>
+  <rect x="194" y="208" width="124" height="81" rx="13" fill="#e3062d" stroke="white" stroke-width="7"/><path d="m199 214 57 40 57-40" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round"/>
+
+</g>
+<g font-family="Arial, sans-serif"><text x="230" y="108" fill="#052a52" font-size="64" font-weight="700">G-SMAİL</text><text x="234" y="154" fill="#2b5078" font-size="28">İletişiminiz, bir arada.</text><path d="M234 181h420" stroke="#c8d7e9"/><text x="234" y="219" fill="#193b60" font-size="18" font-weight="700" letter-spacing="1.6">G-SANTRAL İŞ ÇÖZÜMLERİ</text><text x="234" y="248" fill="#526c89" font-size="16">www.gsantral.com.tr</text>
+<rect x="1010" y="34" width="150" height="36" rx="18" fill="#fff" stroke="#ccdaeb"/><text x="1085" y="58" text-anchor="middle" fill="#265f9f" font-size="16" font-weight="700">Sürüm 1.2.21</text><text x="1148" y="272" text-anchor="end" fill="#526c89" font-size="16">Windows · Linux önizleme</text></g></svg>
