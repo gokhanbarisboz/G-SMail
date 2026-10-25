@@ -35,14 +35,14 @@ Bu depoda **hazır uygulama paketleri, örnek ekranlar ve kullanım belgeleri** 
 
 ## Hangi paketi indirmeliyim?
 
-Güncel sürüm: **1.2.34**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
+Güncel sürüm: **1.2.43**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
 
 | Platform | Dosya | Kullanım |
 |---|---|---|
 | Windows 64 bit | `G-SMail-Setup.exe` | **Önerilen.** Kurulum ve mevcut sürümün üzerine güncelleme. |
 | Windows 64 bit | `G-SMail-Portable.exe` | Tek dosyadan kurulumsuz açılış. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.34-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.34-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.43-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.43-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
 
 Linux paketlerinin içeriği ve bütünlüğü doğrulandı; gerçek Linux masaüstünde kurulum/çalışma testi henüz yapılmadı. [Kurulum ayrıntıları →](docs/KURULUM.md)
 
@@ -52,11 +52,11 @@ Gmail / Google Workspace, Outlook / Microsoft 365, Yahoo, iCloud ve standart IMA
 
 Bağlantı yöntemi, uygulama şifresi ve yönetici izinleri sağlayıcıya göre değişir. Her sağlayıcının bütün servislerinin eksiksiz entegrasyonu vaat edilmez. [Hesap ve yapay zekâ rehberi →](docs/HESAPLAR-VE-YAPAY-ZEKA.md)
 
-## 1.2.34 ile gelenler
+## 1.2.43 ile gelenler
 
-- cPanel ve Zimbra hesapları otomatik kurulumla başlar. E-posta adresinizin alan adına göre yayımlanmış sunucu, port ve güvenli bağlantı ayarları bulunarak doldurulur.
-- Gelişmiş alanlarda yaptığınız değişiklikler korunur. Otomatik doldur düğmesi yayımlanmış ayarları yeniden getirir; giriş reddedildiğinde mevcut alanlar boşaltılmaz.
-- Güvenli hesap keşfine STARTTLS desteği eklendi. Parolanız yapılandırma isteğine eklenmez ve sertifika doğrulaması korunur.
+- Sunucuda bulunamayan iletilere ait eski taşıma hataları, kaynak ve hedef klasörler denetlenerek uzlaştırılır. Taşıma veya silme işlemi yeniden gönderilmez.
+- Hedef klasörde doğrulanamayan bir ileti taşınmış gibi gösterilmez. Yinelenen hata kayıtları önlenir ve çözüm açıklamaları korunur.
+- Posta işlemleri geçmişine alt çubuktan ulaşabilirsiniz. Son 200 uzlaştırılmış kayıt, uygulama yeniden açıldığında da saklanır.
 
 ## Bir kahveyle destek olmak ister misiniz?
 
