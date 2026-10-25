@@ -12,13 +12,18 @@
 | Outlook.com / Microsoft 365 | Microsoft OAuth + Graph. Uygulama kaydı ve hesap/kurum izni gerekir. |
 | Yahoo | IMAP + SMTP ve uygulama şifresi. |
 | iCloud | IMAP + SMTP ve uygulamaya özel şifre. POP3 kullanılmaz. |
-| Zimbra | Kurumunuzun izin verdiği IMAP + SMTP sunucu bilgileri. |
-| cPanel / Plesk / diğer sunucular | Sağlayıcınızın verdiği IMAP veya POP3 ve SMTP bilgileri. Webmail adresi posta sunucusu adı olmayabilir. |
+| Zimbra | Yayımlanmış IMAP + SMTP ayarları otomatik bulunur; gelişmiş alanlar elle düzenlenebilir. |
+| cPanel | E-posta alan adınıza göre yayımlanmış sunucu, port ve güvenli bağlantı ayarları otomatik doldurulur. |
+| Plesk / diğer sunucular | Sağlayıcınızın verdiği IMAP veya POP3 ve SMTP bilgileri. Webmail adresi posta sunucusu adı olmayabilir. |
 | Şirket içi Exchange | Kurum izin veriyorsa IMAP + SMTP. EWS ve ActiveSync entegrasyonu yoktur. |
 
 IMAP’ta klasör ve ileti işlemleri sunucunun desteklediği kapsamda eşitlenir. POP3’te klasör ve okunma işlemleri cihazda kalır. Yerel kurallar G-SMAİL açıkken çalışır; sunucunuzun kural yönetimini değiştirmez.
 
 Bağlantı seçeneklerinin bulunması, tüm sağlayıcıların takvim, kişi rehberi ve diğer servisleriyle eksiksiz entegrasyon veya her hesapta doğrulanmış çalışma anlamına gelmez.
+
+### cPanel ve Zimbra otomatik kurulum
+
+1.2.34 sürümünde hesap keşfi, alan adınız için yayımlanmış ayarları kullanır. Gelişmiş alanlarda yaptığınız değişiklikler korunur; **Otomatik doldur** yayımlanmış ayarları yeniden getirir. Giriş reddedildiğinde alanlar boşaltılmaz. Keşif STARTTLS bağlantılarını destekler, sertifika doğrulamasını korur ve parolanızı yapılandırma isteğine eklemez. Otomatik keşif için sunucunuzun uygun ayarları yayımlaması gerekir.
 
 ## Yapay zekâ ile metin düzenleme
 
