@@ -25,21 +25,21 @@ Hedef dağıtımlar Ubuntu, Linux Mint, Debian ve Pardus’un güncel 64 bit mas
 
 ### DEB paketi — önerilen
 
-1. `G-SMail-1.2.34-linux-amd64.deb` dosyasını indirin.
+1. `G-SMail-1.2.43-linux-amd64.deb` dosyasını indirin.
 2. Dağıtımınızın Paket Kurucu uygulamasıyla açın.
 3. Uygulama menüsünden **G-SMAİL**’i başlatın.
 
 Terminalden kurulum:
 
 ```sh
-sudo apt install ./G-SMail-1.2.34-linux-amd64.deb
+sudo apt install ./G-SMail-1.2.43-linux-amd64.deb
 ```
 
 Uygulamanın kendisini `sudo` veya root olarak çalıştırmayın.
 
 ### Taşınabilir klasör
 
-`G-SMail-1.2.34-linux-x64.tar.gz` arşivini tamamen çıkarın. `G-SMail` klasöründeki `Baslat.sh` dosyasını çalıştırın. Bu paket sistem bağımlılıklarını kurmaz; bir sorunla karşılaşırsanız DEB paketini tercih edin.
+`G-SMail-1.2.43-linux-x64.tar.gz` arşivini tamamen çıkarın. `G-SMail` klasöründeki `Baslat.sh` dosyasını çalıştırın. Bu paket sistem bağımlılıklarını kurmaz; bir sorunla karşılaşırsanız DEB paketini tercih edin.
 
 ### Hesap bilgilerinin saklanması
 
