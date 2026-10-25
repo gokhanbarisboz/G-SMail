@@ -10,7 +10,7 @@
 
 Bu depoda **hazır uygulama paketleri, örnek ekranlar ve kullanım belgeleri** bulunur. Uygulamanın kaynak kodu yayımlanmaz.
 
-![G-SMAİL açık tema: klasörler, ileti listesi ve okuma alanı](images/01-posta-acik.png)
+![G-SMAİL açık tema: klasörler, ileti listesi ve okuma alanı](images/g-smail-1234-posta.jpg)
 
 ## Günlük kullanım için
 
@@ -25,50 +25,38 @@ Bu depoda **hazır uygulama paketleri, örnek ekranlar ve kullanım belgeleri** 
 | Posta koruması | Gönderen engelleme, gereksiz posta işlemleri ve şüpheli bağlantı uyarılarını kullanın. |
 | Yedekleme | Çalışma alanınızı parolalı bir dosyada yedekleyin. |
 
-### Açık veya koyu: size uygun çalışma alanı
+### Önizlemeler
 
-![G-SMAİL koyu tema](images/02-posta-koyu.png)
+![G-SMAİL 1.2.34 ileti yazma ekranı](images/g-smail-1234-ileti.jpg)
 
-### Yazın, düzenleyin, imzanızla tamamlayın
+![G-SMAİL 1.2.34 görünüm ayarları](images/g-smail-1234-gorunum.jpg)
 
-![G-SMAİL ileti yazma ekranı](images/03-ileti-yazma.png)
-
-<details>
-<summary><b>İmza yönetimi ve yapay zekâ ekranlarını göster</b></summary>
-
-![Adlandırılmış imza oluşturma](images/04-imzalar.png)
-
-![Yapay zekâ sağlayıcısı ve model ayarları](images/05-yapay-zeka.png)
-
-</details>
-
-*Ekran görüntüleri 1.2.21 Windows sürümünden, örnek verilerle alınmıştır. Gerçek kullanıcı postası veya hesap anahtarı içermez.*
+*Ekranlar, 1.2.34 uygulamasının gerçek arayüzünden örnek verilerle alınmıştır. Gerçek kullanıcı postası veya hesap anahtarı içermez.*
 
 ## Hangi paketi indirmeliyim?
 
-Güncel sürüm: **1.2.21**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
+Güncel sürüm: **1.2.34**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
 
 | Platform | Dosya | Kullanım |
 |---|---|---|
 | Windows 64 bit | `G-SMail-Setup.exe` | **Önerilen.** Kurulum ve mevcut sürümün üzerine güncelleme. |
 | Windows 64 bit | `G-SMail-Portable.exe` | Tek dosyadan kurulumsuz açılış. |
-| Windows 64 bit | `G-SMail-Klasor-Portable.zip` | Arşivin tamamını çıkarıp `G-SMail.exe` dosyasını açın. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.21-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.21-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.34-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.34-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
 
 Linux paketlerinin içeriği ve bütünlüğü doğrulandı; gerçek Linux masaüstünde kurulum/çalışma testi henüz yapılmadı. [Kurulum ayrıntıları →](docs/KURULUM.md)
 
 ## Hesabınızı bağlayın
 
-Gmail / Google Workspace, Outlook / Microsoft 365, Yahoo, iCloud ve standart IMAP/POP3/SMTP sunucuları için bağlantı seçenekleri vardır. Zimbra, cPanel ve benzeri sunucularda kurumunuzun verdiği bağlantı bilgilerini kullanın.
+Gmail / Google Workspace, Outlook / Microsoft 365, Yahoo, iCloud ve standart IMAP/POP3/SMTP sunucuları için bağlantı seçenekleri vardır. cPanel ve Zimbra için yayımlanmış bağlantı ayarları otomatik bulunur; gerektiğinde gelişmiş alanları kurumunuzun verdiği bilgilerle düzenleyebilirsiniz.
 
 Bağlantı yöntemi, uygulama şifresi ve yönetici izinleri sağlayıcıya göre değişir. Her sağlayıcının bütün servislerinin eksiksiz entegrasyonu vaat edilmez. [Hesap ve yapay zekâ rehberi →](docs/HESAPLAR-VE-YAPAY-ZEKA.md)
 
-## 1.2.21’de neler değişti?
+## 1.2.34 ile gelenler
 
-- “Bir daha gösterme” tercihi posta kaydını beklemeden saklanır.
-- İleti kapatma açıklaması sadeleştirildi ve tek satıra indirildi.
-- İmza adı ve imza seçim kutularının görünümü düzenlendi.
+- cPanel ve Zimbra hesapları otomatik kurulumla başlar. E-posta adresinizin alan adına göre yayımlanmış sunucu, port ve güvenli bağlantı ayarları bulunarak doldurulur.
+- Gelişmiş alanlarda yaptığınız değişiklikler korunur. Otomatik doldur düğmesi yayımlanmış ayarları yeniden getirir; giriş reddedildiğinde mevcut alanlar boşaltılmaz.
+- Güvenli hesap keşfine STARTTLS desteği eklendi. Parolanız yapılandırma isteğine eklenmez ve sertifika doğrulaması korunur.
 
 ## Bir kahveyle destek olmak ister misiniz?
 
