@@ -10,7 +10,7 @@
 
 Bu depoda **hazır uygulama paketleri, örnek ekranlar ve kullanım belgeleri** bulunur. Uygulamanın kaynak kodu yayımlanmaz.
 
-![G-SMAİL açık tema: klasörler, ileti listesi ve okuma alanı](images/g-smail-1234-posta.jpg)
+![G-SMAİL 1.2.74 posta alanı ve Sohbet Balonu](https://gsantral.com.tr/assets/ekranlar/g-smail-1274-posta.png)
 
 ## Günlük kullanım için
 
@@ -25,24 +25,32 @@ Bu depoda **hazır uygulama paketleri, örnek ekranlar ve kullanım belgeleri** 
 | Posta koruması | Gönderen engelleme, gereksiz posta işlemleri ve şüpheli bağlantı uyarılarını kullanın. |
 | Yedekleme | Çalışma alanınızı parolalı bir dosyada yedekleyin. |
 
-### Önizlemeler
+### Yenilendi · Sohbet Balonu
 
-![G-SMAİL 1.2.34 ileti yazma ekranı](images/g-smail-1234-ileti.jpg)
+Son sürümü kuran kullanıcılar sohbet özelliğini kullanabilir. Mesajlarınızı çalışma alanından takip edin; sohbeti alt çubuktan açıp küçültün.
 
-![G-SMAİL 1.2.34 görünüm ayarları](images/g-smail-1234-gorunum.jpg)
+<p align="center"><img src="https://gsantral.com.tr/assets/ekranlar/g-smail-1274-sohbet.png" alt="G-SMAİL 1.2.74 Sohbet Balonu" width="320"></p>
 
-*Ekranlar, 1.2.34 uygulamasının gerçek arayüzünden örnek verilerle alınmıştır. Gerçek kullanıcı postası veya hesap anahtarı içermez.*
+### Yenilenen çalışma alanları
+
+![G-SMAİL 1.2.74 takvim](https://gsantral.com.tr/assets/ekranlar/g-smail-1274-takvim.png)
+
+![G-SMAİL 1.2.74 kişiler liste görünümü](https://gsantral.com.tr/assets/ekranlar/g-smail-1274-kisiler.png)
+
+![G-SMAİL 1.2.74 görev filtreleri](https://gsantral.com.tr/assets/ekranlar/g-smail-1274-gorevler.png)
+
+*Ekranlar, 1.2.74 uygulamasının gerçek arayüzünden örnek verilerle alınmıştır.*
 
 ## Hangi paketi indirmeliyim?
 
-Güncel sürüm: **1.2.43**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
+Güncel sürüm: **1.2.74**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
 
 | Platform | Dosya | Kullanım |
 |---|---|---|
 | Windows 64 bit | `G-SMail-Setup.exe` | **Önerilen.** Kurulum ve mevcut sürümün üzerine güncelleme. |
 | Windows 64 bit | `G-SMail-Portable.exe` | Tek dosyadan kurulumsuz açılış. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.43-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.43-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.74-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.74-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
 
 Linux paketlerinin içeriği ve bütünlüğü doğrulandı; gerçek Linux masaüstünde kurulum/çalışma testi henüz yapılmadı. [Kurulum ayrıntıları →](docs/KURULUM.md)
 
@@ -52,11 +60,12 @@ Gmail / Google Workspace, Outlook / Microsoft 365, Yahoo, iCloud ve standart IMA
 
 Bağlantı yöntemi, uygulama şifresi ve yönetici izinleri sağlayıcıya göre değişir. Her sağlayıcının bütün servislerinin eksiksiz entegrasyonu vaat edilmez. [Hesap ve yapay zekâ rehberi →](docs/HESAPLAR-VE-YAPAY-ZEKA.md)
 
-## 1.2.43 ile gelenler
+## 1.2.74 ile gelenler
 
-- Sunucuda bulunamayan iletilere ait eski taşıma hataları, kaynak ve hedef klasörler denetlenerek uzlaştırılır. Taşıma veya silme işlemi yeniden gönderilmez.
-- Hedef klasörde doğrulanamayan bir ileti taşınmış gibi gösterilmez. Yinelenen hata kayıtları önlenir ve çözüm açıklamaları korunur.
-- Posta işlemleri geçmişine alt çubuktan ulaşabilirsiniz. Son 200 uzlaştırılmış kayıt, uygulama yeniden açıldığında da saklanır.
+- Sohbet Balonu eklendi. Sohbet özelliğini kullanmak için kullanıcıların güncel sürümü kurması gerekir.
+- Sohbet mesajları, saatler ve durum bilgileri daha okunaklı. Sohbet balonu alt çubukta kendisine ayrılan alanda yer alır.
+- Takvim, Kişiler ve Yapılacaklar alanları yenilendi. Kişiler için kart ve liste görünümleri; görevler için Bugün, Geciken ve Tamamlanan filtreleri eklendi.
+- İleti başlıkları ve alıcı satırları sadeleştirildi. Çok alıcılı iletilerde tüm kişileri tek hareketle açabilirsiniz.
 
 ## Bir kahveyle destek olmak ister misiniz?
 
