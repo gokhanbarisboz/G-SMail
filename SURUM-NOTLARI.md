@@ -1,13 +1,16 @@
-# G-SMAİL 1.2.74
+# G-SMAİL 1.2.76
 
 G-SANTRAL İŞ ÇÖZÜMLERİ’nin ücretsiz Türkçe masaüstü e-posta uygulaması.
 
-## Yenilendi · Sohbet Balonu
+## 1.2.76 · Sade ek görünümü ve gönderim öncesi kontrol
 
-- Sohbet Balonu eklendi. Sohbet özelliğini kullanmak için kullanıcıların güncel sürümü kurması gerekir.
-- Sohbet mesajları, saatler ve durum bilgileri daha okunaklı. Sohbet balonu alt çubukta kendisine ayrılan alanda yer alır.
-- Takvim, Kişiler ve Yapılacaklar alanları yenilendi. Kişiler için kart ve liste görünümleri; görevler için Bugün, Geciken ve Tamamlanan filtreleri eklendi.
-- İleti başlıkları ve alıcı satırları sadeleştirildi. Çok alıcılı iletilerde tüm kişileri tek hareketle açabilirsiniz.
+- Ek kartları sadeleştirildi: dosya simgesi, adı ve boyutu konu satırının altında bir arada.
+- PDF, resim, metin ve desteklenen Office belgelerini göndermeden önce uygulama içinde önizleyebilirsiniz.
+- Yeni ileti ve yanıt alanına sürükleyip bırakma, dosya seçme ve panodan ekleme aynı kontrolleri kullanır. Eklenemeyen dosyalar nedenleriyle gösterilir.
+- En fazla 20 dosya eklenebilir. Toplam sınır SMTP hesaplarında 15 MB, Microsoft hesaplarında 2 MB; ileti içindeki görseller de bu hesaba dahildir.
+- Kaynak dosya değişse veya silinse bile taslağa kaydedilen ekin aynı kopyası önizleme ve gönderimde kullanılır.
+
+Sohbet Balonu, takvim, kişiler ve görevler de uygulamada yer alır. Sohbet için kullanıcıların güncel sürümü kurması gerekir.
 
 ## Ücretsiz indirme
 
@@ -15,8 +18,8 @@ G-SANTRAL İŞ ÇÖZÜMLERİ’nin ücretsiz Türkçe masaüstü e-posta uygulam
 |---|---|
 | G-SMail-Setup.exe | Windows 64 bit kurulum ve güncelleme |
 | G-SMail-Portable.exe | Windows 64 bit, tek dosyadan kurulumsuz kullanım |
-| G-SMail-1.2.74-linux-amd64.deb | Debian / Ubuntu tabanlı Linux 64 bit · Önizleme |
-| G-SMail-1.2.74-linux-x64.tar.gz | Linux 64 bit, arşivden kullanım · Önizleme |
+| G-SMail-1.2.76-linux-amd64.deb | Debian / Ubuntu tabanlı Linux 64 bit · Önizleme |
+| G-SMail-1.2.76-linux-x64.tar.gz | Linux 64 bit, arşivden kullanım · Önizleme |
 | SHA256SUMS.txt | Paketlerin SHA-256 bütünlük değerleri |
 
 Güncellemeden önce uygulamayı kapatın. Linux paket içeriği doğrulanmıştır; gerçek Linux masaüstünde çalışma testi yapılmamıştır.
