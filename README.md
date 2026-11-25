@@ -43,14 +43,14 @@ Son sürümü kuran kullanıcılar sohbet özelliğini kullanabilir. Mesajların
 
 ## Hangi paketi indirmeliyim?
 
-Güncel sürüm: **1.2.76**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
+Güncel sürüm: **1.2.92**. Dosyalar [sürüm sayfasında](https://github.com/gokhanbarisboz/G-SMail/releases/latest) bulunur.
 
 | Platform | Dosya | Kullanım |
 |---|---|---|
 | Windows 64 bit | `G-SMail-Setup.exe` | **Önerilen.** Kurulum ve mevcut sürümün üzerine güncelleme. |
 | Windows 64 bit | `G-SMail-Portable.exe` | Tek dosyadan kurulumsuz açılış. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.76-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
-| Linux 64 bit · önizleme | `G-SMail-1.2.76-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.92-linux-amd64.deb` | Ubuntu, Linux Mint, Debian ve Pardus için paket kurulumu. |
+| Linux 64 bit · önizleme | `G-SMail-1.2.92-linux-x64.tar.gz` | Arşivi çıkarıp `G-SMail/Baslat.sh` ile açın. |
 
 Linux paketlerinin içeriği ve bütünlüğü doğrulandı; gerçek Linux masaüstünde kurulum/çalışma testi henüz yapılmadı. [Kurulum ayrıntıları →](docs/KURULUM.md)
 
@@ -60,13 +60,13 @@ Gmail / Google Workspace, Outlook / Microsoft 365, Yahoo, iCloud ve standart IMA
 
 Bağlantı yöntemi, uygulama şifresi ve yönetici izinleri sağlayıcıya göre değişir. Her sağlayıcının bütün servislerinin eksiksiz entegrasyonu vaat edilmez. [Hesap ve yapay zekâ rehberi →](docs/HESAPLAR-VE-YAPAY-ZEKA.md)
 
-## 1.2.76 ile gelenler
+## 1.2.92 ile gelenler
 
-- Ek kartları sadeleştirildi: dosya simgesi, adı ve boyutu konu satırının altında bir arada.
-- PDF, resim, metin ve desteklenen Office belgelerini göndermeden önce uygulama içinde önizleyebilirsiniz.
-- Yeni ileti ve yanıt alanına sürükleyip bırakma, dosya seçme ve panodan ekleme aynı kontrolleri kullanır. Eklenemeyen dosyalar nedenleriyle gösterilir.
-- En fazla 20 dosya eklenebilir. Toplam sınır SMTP hesaplarında 15 MB, Microsoft hesaplarında 2 MB; ileti içindeki görseller de bu hesaba dahildir.
-- Kaynak dosya değişse veya silinse bile taslağa kaydedilen ekin aynı kopyası önizleme ve gönderimde kullanılır.
+- İleti listesinde uzun bağlantılar ve görsel adresleri yerine okunabilir özetler gösterilir. Yalnızca bağlantı içeren iletilerde alan adı görünür.
+- Klasör ve ileti listesi genişlikleri dengelendi. Daha önce kaydettiğiniz panel genişlikleri korunur.
+- İçeriği ve ekleri yenile düğmesine okuma panelinin sağ üstünden ulaşabilirsiniz.
+- Alt çubuktaki işlem durumuna tıklayarak ayrıntıları ve devam eden işlemleri görüntüleyebilirsiniz.
+- Sohbet Balonu, takvim, kişiler ve görevler aynı çalışma alanında. Sohbet için tüm kullanıcıların güncel sürümü kurması gerekir.
 
 ## Bir kahveyle destek olmak ister misiniz?
 

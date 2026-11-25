@@ -1,4 +1,4 @@
-06312db2c6537f379da212ca9cfdbac7636af5b0402e38ee125c78f74460dbee  G-SMail-Setup.exe
-849beb9a67776a1444d23e0e5ef3ee7a4a37a3df5c834be90055f4b900f1b607  G-SMail-Portable.exe
-1604e50e220c65434edb8092cd134b7f58f73c55ad47e9b00dc090cb6d445fbd  G-SMail-1.2.76-linux-amd64.deb
-b1bc9a3c91751e95cf27a72c0442027df204846e905a51fb68ea8e05e788eebb  G-SMail-1.2.76-linux-x64.tar.gz
+7edf83c29bf0fb1c95dcf63f02193173bffa5f30fde54d62e08a0bc5e739977c  G-SMail-Setup.exe
+a3fde556bad2ccaf1eaf6863f800e8334ce5b7661a36ccad46a8b1ae34e09d5b  G-SMail-Portable.exe
+cebe686273323a785471f523164cc1e19b929fe1d0c974e9bd20a3cb5fe1685c  G-SMail-1.2.92-linux-amd64.deb
+0414227f7ae8d404b54ff113c8bf8bfd024adb154046df6f77f9547b642b7627  G-SMail-1.2.92-linux-x64.tar.gz
